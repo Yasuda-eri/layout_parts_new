@@ -2,4 +2,26 @@
 
 /* 回答はここに書いてね */
 
+.is__text-align {
+  display: inline-block;
+  text-align: center;
+}
+
+.q6__text-align {
+  padding: 10px 0;
+  text-align: center;
+  width: 90px;
+  background-color: #E6F2FF;
+}
+
+.is__margin {
+  margin: 0 auto;
+}
+
+.q6__margin {
+  padding: 10px 0;
+  text-align: center;
+  width: 90px;
+  background-color: #E6F2FF;
+}
 /* 回答はここに書いてね */
