@@ -1,5 +1,35 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+table {
+  width :100%;
+  border: solid #dedede 1px;
+  text-align: center;
+  table-layout: fixed;
+}
 
+table tr:nth-child(odd) {
+  background-color: #ecf1f2;
+  border: solid #dedede 1px;
+}
+
+table :last-child {
+  border-top: dashed #000 2px;
+}
+
+table th {
+  padding: 10px;
+  font-size: 18px;
+  line-height: 26px;
+  color: #fff;
+  background-color: #2244aa;
+  border: solid #dedede 1px;
+}
+
+table td {
+  padding: 10px;
+  font-size: 16px;
+  line-height: 22px;
+  border: solid #dedede 1px;
+}
 /* 回答はここに書いてね */
