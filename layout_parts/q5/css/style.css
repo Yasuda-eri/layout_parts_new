@@ -1,5 +1,139 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.content__box {
+  width: 500px;
+  height: 500px;
+  background-color: #ecf1f2;
+  position: relative;
+  margin: 0 auto;
+}
 
+.content__1 {
+  width: 100px;
+  height: 100px;
+  background-color: #ffefd3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 40px;
+  left: 200px;
+  z-index: 1;
+}
+
+.content__2 {
+  width: 100px;
+  height: 100px;
+  background-color: #7084de;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 120px;
+  left: 280px;
+  z-index: 2;
+}
+
+.content__3 {
+  width: 100px;
+  height: 100px;
+  background-color: #d0ecea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 200px;
+  left: 360px;
+  z-index: 3;
+}
+
+.content__4 {
+  width: 100px;
+  height: 100px;
+  background-color: #8b7a5e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 280px;
+  left: 280px;
+  z-index: 4;
+}
+
+.content__5 {
+  width: 100px;
+  height: 100px;
+  background-color: #9fd6d2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 360px;
+  left: 200px;
+  z-index: 5;
+}
+
+.content__6 {
+  width: 100px;
+  height: 100px;
+  background-color: #fffee4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 280px;
+  left: 120px;
+  z-index: 6;
+}
+
+.content__7 {
+  width: 100px;
+  height: 100px;
+  background-color: #deae70;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 200px;
+  left: 40px;
+  z-index: 7;
+}
+
+.content__8 {
+  width: 100px;
+  height: 100px;
+  background-color: #de70cf;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 120px;
+  left: 120px;
+  z-index: 8;
+}
+.content__8:before {
+  content: '1';
+  width: 100px;
+  height: 100px;
+  background-color: #ffefd3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 80px;
+  left: 80px;
+}
+
+.content__9 {
+  width: 100px;
+  height: 100px;
+  background-color: #2b69a3;
+  position: fixed;
+  top: 10px; 
+  left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 /* 回答はここに書いてね */
