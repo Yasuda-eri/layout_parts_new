@@ -23,8 +23,8 @@
   width: 230px;
 }
 
-.q1__content__box :first-child {
-  margin: 0;
+.q1__content__box:first-child {
+  margin-left: 0;
 }
 
 .q1__content__text {
