@@ -7,14 +7,12 @@
   clear: both;
 }
 
-.q7 .q7__box {
-  width: 225px;
-}
 .q7--float .box__float {
   float: left;
   margin-left: 50px;
   font-size: 16px;
   box-sizing: border-box;
+  width: 225px;
 }
 .q7--float .box__float:first-child {
   margin-left: 0;
@@ -23,57 +21,57 @@
 .q7--table .table__text {
   font-size: 16px;
 }
-.q7--table .q7__box:first-child {
+.q7--table .box__table:first-child {
   padding-left: 0;
 }
-.q7--table .q7__box {
+.q7--table .box__table {
   display: table-cell;
   padding-left: 50px;
   vertical-align: middle;
+  width: 225px;
 }
 
-.q7--inlineblock .q7__inner {
-  letter-spacing: -0.4em;
+.q7--inlineblock .inner__inline {
+  font-size: 0;
 }
-.q7--inlineblock .q7__box:first-child {
+.q7--inlineblock .box__inline:first-child {
   margin-left: 0;
 }
-.q7--inlineblock .q7__box {
-  letter-spacing: normal;
+.q7--inlineblock .box__inline {
   display: inline-block;
   margin-left: 50px;
   font-size: 16px;
   vertical-align: middle;
   box-sizing: border-box;
+  width: 225px;
 }
 
-.q7--flex .q7__inner {
+.q7--flex .inner__flex {
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
 }
-.q7--flex .q7__box {
+.q7--flex .box__flex {
   font-size: 16px;
   vertical-align: middle;
   box-sizing: border-box;
+  width: 225px;
 }
 
-.q7--margin .q7__inner {
-  letter-spacing: -0.4em;
+.q7--margin .inner__inline__margin {
+  font-size: 0;
 }
-.q7--margin .q7__box__text {
+.q7--margin .q7__inline__margin__text {
   font-size: 16px;
 }
 .q7--margin .q7__box.is-stable {
-  letter-spacing: normal;
   display: inline-block;
   width: 300px;
 }
-.q7--margin .q7__box {
+.q7--margin .box__inline__margin {
   vertical-align: top;
 }
 .q7--margin .q7__box.is-flexible  {
-  letter-spacing: normal;
   display: inline-block;
   width: 100%;
   margin-left: -300px;
