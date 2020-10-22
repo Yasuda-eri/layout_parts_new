@@ -1,62 +1,54 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.q4__content {
-  margin: 0 auto;
+.q4__box {
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #ECF1F2;
+}
+
+.q4__contents {
+  display: table;
+  margin-top: 20px;
+  width: 100%;
+  background-color: #ECF1F2;
+}
+
+.q4__contents:first-child {
+  margin-top: 0;
+}
+
+.q4__contents__cell {
+  display: table-cell;
+  padding: 20px 0;
   text-align: center;
 }
 
-.content__top {
-  display: table;
-  table-layout: fixed;
-  margin: 0 auto;
-  width: 100%;
-}
-
-.content__top__left {
-  display: table-cell;
-  padding: 20px;
+.q4__contents__cell.is-pink {
   background-color: #fdc8b8;
-  width: 60px;
+  width: 100px;
 }
 
-.content__top__center {
-  display: table-cell;
-  padding: 20px;
+.q4__contents__cell.is-purple {
   background-color: #e0abd9;
 }
 
-.content__top__right {
-  display: table-cell;
-  padding: 20px;
+.q4__contents__cell.is-blue {
   background-color: #b6d8ed;
-  width: 60px;
+  width: 100px;
 }
 
-.content__under {
-  display: table;
-  table-layout: fixed;
-  margin: 0% auto;
-  width: 100%;
-}
-
-.content__under__left {
-  display: table-cell;
-  padding: 20px;
+.q4__contents__cell.is-yellow {
   background-color: #e5d32e;
 }
 
-.content__under__center {
-  display: table-cell;
-  padding: 20px;
+.q4__contents__cell.is-red {
   background-color: #ec8f9a;
 }
 
-.content__under__right {
-  display: table-cell;
-  padding: 20px;
+.q4__contents__cell.is-green {
   background-color: #8fdcad;
-  width: 460px;
+  width: 500px;
 }
 
 /* 回答はここに書いてね */

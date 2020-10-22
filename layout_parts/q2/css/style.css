@@ -15,20 +15,17 @@
   margin: 0 auto;
 }
 
-.q2__content__image__top {
-  margin-top: 0;
-  margin-left: 0;
-  margin-right: 20px;
-  margin-bottom: 10px;
+.q2__thumb.is-left {
   float: left;
+  margin-right: 20px;
+}
+.q2__thumb {
+  margin-bottom: 10px;
 }
 
-.q2__content__image__under {
-  margin-top: 0;
-  margin-left: 20px;
-  margin-right: 0;
-  margin-bottom: 10px;
+.q2__thumb.is-right {
   float: right;
+  margin-left: 20px;
 }
 
 .q2__content__text {

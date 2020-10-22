@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.content__box {
+.contents__box {
   width: 500px;
   height: 500px;
   background-color: #ecf1f2;
@@ -9,110 +9,71 @@
   margin: 0 auto;
 }
 
-.content__1 {
-  width: 100px;
-  height: 100px;
-  background-color: #ffefd3;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.q5__box {
   position: absolute;
+  width: 100px;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 100px;
+  text-align: center;
+}
+
+.is__1 {
+  background-color: #ffefd3;
   top: 40px;
   left: 200px;
   z-index: 1;
 }
 
-.content__2 {
-  width: 100px;
-  height: 100px;
+.is__2 {
   background-color: #7084de;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
   top: 120px;
   left: 280px;
   z-index: 2;
 }
 
-.content__3 {
-  width: 100px;
-  height: 100px;
+.is__3 {
   background-color: #d0ecea;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
   top: 200px;
   left: 360px;
   z-index: 3;
 }
 
-.content__4 {
-  width: 100px;
-  height: 100px;
+.is__4 {
   background-color: #8b7a5e;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
   top: 280px;
   left: 280px;
   z-index: 4;
 }
 
-.content__5 {
-  width: 100px;
-  height: 100px;
+.is__5 {
   background-color: #9fd6d2;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
   top: 360px;
   left: 200px;
   z-index: 5;
 }
 
-.content__6 {
-  width: 100px;
-  height: 100px;
+.is__6 {
   background-color: #fffee4;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
   top: 280px;
   left: 120px;
   z-index: 6;
 }
 
-.content__7 {
-  width: 100px;
-  height: 100px;
+.is__7 {
   background-color: #deae70;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
   top: 200px;
   left: 40px;
   z-index: 7;
 }
 
-.content__8 {
-  width: 100px;
-  height: 100px;
+.is__8 {
   background-color: #de70cf;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
   top: 120px;
   left: 120px;
   z-index: 8;
 }
-.content__8:before {
+.is__8:before {
   position: absolute;
   top: 0;
   right: 0;
@@ -122,15 +83,11 @@
   content: "";
 }
 
-.content__9 {
-  width: 100px;
-  height: 100px;
-  background-color: #2b69a3;
+.is__9 {
+  z-index: 10;
   position: fixed;
-  top: 10px; 
+  top: 10px;
   left: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background-color: #2B69A3;
 }
 /* 回答はここに書いてね */
